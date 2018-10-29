@@ -1,0 +1,37 @@
+.page-footer {
+  position: relative;
+  display: flex;
+  z-index: 2;
+  width: 100%;
+  height: 10vh;
+  background-color: $blue;
+}
+
+.page-footer__layout-positioner {
+  padding: 0 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.page-footer__company-hashtag {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: $white;
+}
+
+.page-footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 35%;
+  list-style: none;
+}
+
+.page-footer__social-item {
+  width: 10%;
+  font-size: 0;
+}

@@ -1,0 +1,10 @@
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }

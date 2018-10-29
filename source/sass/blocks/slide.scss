@@ -1,0 +1,29 @@
+.slide {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.slide__popup-wrapper {
+  position: absolute;
+  padding: 1rem;
+  min-height: 40vh;
+  margin: 0.95rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: calc(100% - 0.95rem * 2);
+
+  &--no-background {
+    padding: 1.2rem;
+  }
+}
+
+.slider-container.bottom .slide__popup-wrapper {
+  justify-content: flex-start;
+}

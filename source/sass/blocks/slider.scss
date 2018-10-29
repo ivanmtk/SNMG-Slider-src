@@ -1,0 +1,66 @@
+.slider__item {
+    position: relative;
+    z-index: -1;
+    margin: 0.95rem;
+    min-height: inherit;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: $white;
+    font-family: sans-serif;
+    background-size: cover;
+  
+    &--1 {
+      background-image: url('../img/man-from-siberia.jpg');
+    }
+  
+    &--2 {
+      background-image: url('../img/photo-man.jpg');
+    }
+  
+    &--3 {
+      border: 1rem solid $blue;
+    }
+  
+    &--4 {
+      border-style: solid;
+      border-image-slice: 100;
+      border-image-width: 2rem;
+      border-image-outset: 0px;
+      border-image-repeat: round;
+      border-image-source: url('../img/dotted-border.gif');
+    }
+  
+    &--5 {
+      border: 0.1rem solid $blue;
+    }
+  
+    &--6 {
+      border-style: solid;
+      border-image-slice: 100;
+      border-image-width: 2rem;
+      border-image-outset: 0px;
+      border-image-repeat: round;
+      border-image-source: url('../img/wavy-border.gif');
+    }
+  
+    &--7 {
+      background-image: url('../img/strawberries.jpg');
+    }
+  
+    &--8 {
+      background-image: url('../img/wheelbarrow.jpg');
+    }
+  
+    &--9 {
+      background-image: url('../img/flower.jpg');
+    }
+    
+    &--10 {
+      border: 0.1rem solid $blue;
+    }
+  }
+  
